@@ -18,6 +18,8 @@ defmodule EpsirumWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+
+    get "/topics/new", TopicController, :new
   end
 
   # Other scopes may use custom stacks.

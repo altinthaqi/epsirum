@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   postgres:
-    container_name: next-elysia
+    container_name: epsirum
     image: postgres
     environment:
       - POSTGRES_USER=epsilono
