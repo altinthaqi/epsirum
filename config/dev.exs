@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :epsirum, Epsirum.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "epsilono",
+  password: "epsilono",
   hostname: "localhost",
   database: "epsirum_dev",
   stacktrace: true,
